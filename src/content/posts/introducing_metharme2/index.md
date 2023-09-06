@@ -39,7 +39,7 @@ We'll divide and go over the sources of our datasets in detail from two sides: t
     - Almost a quarter of our dataset contains processed posts from various different roleplay forums which are both SFW and NSFW in nature.
 
 - **Stories**
-    - Data scraped from a certain stories website, mostly NSFW in nature.
+    - Data scraped from a certain stories website, mostly NSFW.
 
 - [**PIPPA**](https://huggingface.co/datasets/PygmalionAI/PIPPA)
     - User-submitted Character.AI logs. We limit the entries in PIPPA to take only any logs which were submitted before the release of Pygmalion-6B so that our data does not get overwhelmed and to have the same logs that Pygmalion-6B (which is considered by the community to have the most "soul") was trained on.
@@ -50,7 +50,7 @@ We'll divide and go over the sources of our datasets in detail from two sides: t
 - [**text_adventures.txt**](https://github.com/Latitude-Archives/AIDungeon/blob/ca098ca7dab480d24e47954c8873b03ba1091ffc/data/text_adventures.txt)
     - We also parse the file **text_adventures.txt**, used by Latitude to fine-tune GPT-2 for the purposes of creating the initial version of AI Dungeon.
 
-- **Claude RP logs**
+- [**Claude RP logs**](https://claude.ai)
     - Logs of roleplay acted out with Claude, submitted by our users to [the dumper site](https://dump.nopanda.io/). While it makes up a only tiny percentage of the dataset, we still thank the community for their contributions!
 
 ### Instructional
@@ -61,24 +61,119 @@ We'll divide and go over the sources of our datasets in detail from two sides: t
     - We use multi-turn instructions answered by Claude to provide not only more instructional data, but also to allow for more varied and expressive answers while answering users' questions.
 
 - [**Airoboros**](https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1)
-    - A popular GPT-4 generated instructional dataset containing creative elements and RP within it. We use version 1.4.1 of Airoboros.
+    - A popular GPT-4 generated instructional dataset containing creative elements and RP within it. We specifically use the 1.4.1 version of Airoboros for our dataset.
 
 - **Guess the Instruction**
     - There is a [paper](https://arxiv.org/abs/2210.02969) which suggests that models' zero-shot capabilities can be improved significantly by doing "flipped learning" - that is, instead of being given an instruction and telling the model to generate an answer, the model is given an *answer* and is tasked to generate an *instruction* instead. We implement something like it and use the [Dolly](https://huggingface.co/datasets/databricks/databricks-dolly-15k) dataset alongside a subset of Airoboros.
+
+### SillyTavern
+We have tested the models using [SillyTavern](https://github.com/SillyTavern/SillyTavern). We have found the following settings to work best with our new models. Please try and change your settings to match these for optimal performance:
+
+![](sillytavern.png)
+
+Credits to Trappu for the settings.
 
 ### Training the Models
 While the general public has not seen us release any major models for (too many) months, that doesn't mean we haven't been training any new ones. For the past few months, we've been experimenting and gaining experience in fine-tuning new models by sending potential release candidates to a team of testers. Through their help, we've iterated constantly upon feedback to create a model that's ready for release and worth the weight. Let's go into the specifics of our latest models.
 
 We have released fine-tunes of the **Llama-2** base model in two sizes: 7B and 13B. Our 7B model was trained on 8x A40s graciously provided by [Arc Compute](https://www.arccompute.io/) on our full 432M token dataset, while our 13B model was trained on 8x H100s loaned to us by a generous donor.
 
-Though we initially used our own repo for training the models, we later switched to the [axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) repo for more efficient and streamlined training process.
+Though we initially used our own repo for training the models, we later switched to the [axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) codebase for more efficient and streamlined training process.
 
-Our 7B, and 33B models have been trained with the following hyperparameters:
+Our 7B, and 13B models have been trained with the following hyperparameters:
 - Micro batch size of 8 on each GPU, resulting in a global batch size of 64.
 - Learning rate of 1.7e-5 (0.000017), with a cosine learning rate scheduler and 32 warmup steps (applied quadratically)
 - AdamW optimizer with betas of (0.9, 0.95) and a weight decay of 0.1
 - Trained in [bfloat16](https://en.wikipedia.org/wiki/Bfloat16_floating-point_format) + [TensorFloat-32](https://blogs.nvidia.com/blog/2020/05/14/tensorfloat-32-precision-format/) mixed precision.
+- Fully-Sharded Data Parallel (FSDP).
 
+You can refer to the [Axolotl config](#axolotl-config) appendix for our axolotl config and eval loss charts for the models.
+
+
+### Mythalion 13B
+
+Many (if not all) of the Llama-2 models currently considered by users to be the best for roleplaying and conversations are not "pure" models, but rather are blends of multiple different Llama-2 models which are merged into one. These merged models, if blended properly, can capture the strengths of each of its component models and allow for creative and soulful conversation.
+
+While we trained our Pygmalion-2 models, we wondered if model merging could help the Pygmalion-2 models out in terms of being able to maintain coherency and enhance creativity. To that end, we reached out to Gryphe, creator of the popular [**MythoMax-L2-13B**](https://huggingface.co/Gryphe/MythoMax-L2-13b) model (which itself is a blend of many different Llama-2 models) to help us merge our model with theirs. The result is a model named **Mythmalion-13B**, a versatile and powerful roleplay model combining MythoMax's stability and intelligence with Pygmalion-2's raw creative power.
+
+According to our testers, this model surpasses the original Mythomax-L2-13B in terms of response quality.
+
+#### Merging Process
+The merge was performed by blending in layers of the two models based on specific ratios. The `lm_head`, `embed_tokens`, `layernorm`, and `model.norm` layers were split evenly between the two models, while the self attention (`self_attn`) layers are 20% our model's and the feedforward layers (`mlp`) are 20% MythoMax-13B's.
+
+Please refer to [Appendix B](#appendix-b) for the detailed merge config.
+
+
+
+## Appendix
+
+### Axolotl config
+
+We used the following axolotl config for both runs, with the base models swapped out for 7B and 13B:
+
+```yaml
+base_model: meta-llama/Llama-2-13b-hf
+base_model_config: meta-llama/Llama-2-13b-hf
+model_type: LlamaForCausalLM
+tokenizer_type: LlamaTokenizer
+tokenizer_use_fast: true
+tokenizer_legacy: true
+load_in_8bit: false                    
+load_in_4bit: false     
+strict: false  
+hf_use_auth_token: true
+datasets:           
+  - path: /home/data/datasets
+    type: metharme
+    data_files:
+      - metharme2-v4-longest.jsonl
+dataset_prepared_path: last_prepared_run
+val_set_size: 0.01
+sequence_len: 4096
+sample_packing: true
+wandb_project: metharme2-13b-v3
+wandb_entity: pygmalion_ai
+output_dir: /home/data/checkpoints/metharme2-13b-v3
+gradient_accumulation_steps: 1
+micro_batch_size: 8
+num_epochs: 4
+optimizer: adamw_torch
+adam_beta2: 0.95
+adam_eps: 0.000000001
+max_grad_norm: 1.0
+torchdistx_path:
+lr_scheduler: cosine
+lr_quadratic_warmup: true
+learning_rate: 0.000017
+train_on_inputs: true
+group_by_length: false
+bf16: true
+fp16: false
+tf32: true
+gradient_checkpointing: true
+logging_steps: 1
+xformers_attention: 
+flash_attention: true
+warmup_steps: 32
+eval_steps: 64
+save_steps: 256
+save_total_limit: 50
+weight_decay: 0.1
+special_tokens:
+  bos_token: "<s>"
+  eos_token: "</s>"
+  unk_token: "<unk>"
+fsdp:
+  - full_shard
+  - auto_wrap
+fsdp_config:
+  fsdp_sync_module_states: true
+  fsdp_offload_params: true
+  fsdp_state_dict_type: FULL_STATE_DICT
+  fsdp_transformer_layer_cls_to_wrap: LlamaDecoderLayer
+```
+
+### Train/eval loss
 
 Eval loss chart of our final 7B model run:
 
@@ -88,6 +183,32 @@ Eval loss chart of our final 13B model run:
 
 ![](13b-loss.png)
 
+
+### Appendix B
+
+The configuration looks like this:
+
+```yaml
+operations:
+  - operation: lm_head # Single tensor
+    filter: "lm_head"
+    gradient_values: [0.5]
+  - operation: embed_tokens # Single tensor
+    filter: "embed_tokens"
+    gradient_values: [0.5]
+  - operation: self_attn
+    filter: "self_attn"
+    gradient_values: [0.2, 0.8]
+  - operation: mlp
+    filter: "mlp"
+    gradient_values: [0.8, 0.2]
+  - operation: layernorm
+    filter: "layernorm"
+    gradient_values: [0.5]
+  - operation: modelnorm # Single tensor
+    filter: "model.norm"
+    gradient_values: [0.5]
+```
 
 ### Benchmarks
 
