@@ -86,7 +86,7 @@ Credits to Trappu for the settings.
 ### Training the Models
 While the general public has not seen us release any major models for (too many) months, that doesn't mean we haven't been training any new ones. For the past few months, we've been experimenting and gaining experience in fine-tuning new models by sending potential release candidates to a team of testers. Through their help, we've iterated constantly upon feedback to create a model that's ready for release and worth the weight. Let's go into the specifics of our latest models.
 
-We have released fine-tunes of the **Llama-2** base model in two sizes: 7B and 13B. Our 7B model was trained on 8x A40s graciously provided by [Arc Compute](https://www.arccompute.io/) on our full 432M token dataset, while our 13B model was trained on 8x H100s loaned to us by a generous donor.
+We have released fine-tunes of the **Llama-2** base model in two sizes: 7B and 13B. Our 7B model was trained on 8x A40s on our full 432M token dataset, while our 13B model was trained on 8x H100s on the same dataset.
 
 Though we initially used our own repo for training the models, we later switched to the [axolotl](https://github.com/OpenAccess-AI-Collective/axolotl) codebase for more efficient and streamlined training process.
 
@@ -119,6 +119,11 @@ It’s been memed a lot in our community regarding the site development. “When
 ![](sitedates.png)
 Keep in mind these are *loose* planned releases and there may be time variances. However, this is the current plan. As for the website itself, what will make it better than the other ones currently available? Tav has personally gone and scouted 15+ different websites currently available and did some market research. We are confident we can provide an excellent service. After all, if you are entering an already competitive market then the best way to ensure attention is through providing quality. More site announcements will come when the deadlines draw closer.
 
+# Acknowledgements
+
+Pygmalion-2 would not have been possible without many generous people, and it would be unjust to not mention them. We'd first off like to thank [SpicyChat](https://spicychat.ai/) for providing funding for both our current operations and future training runs - their contribution has helped us now and will help us greatly in the months to come. We'd also like to thank [Arc Compute](https://www.arccompute.io/) for providing us A40s which we used for our 7B runs and a very generous donor who has given us access to much-desired H100 GPUs. In addition, we'd like to thank the team behind axolotl for assisting us with training models on their codebase.
+
+We'd also like to thank our internal model testing team for their endless feedback and contributions they have provided through the countless iterations Pygmalion-2 has gone through. And finally, we have eternal thanks for our very own community who has waited ever-so long for Pygmalion-2 to be released, supporting us every step of the way. Thank you, everybody!
 
 ## Appendix
 
