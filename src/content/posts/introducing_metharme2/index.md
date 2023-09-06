@@ -1,8 +1,8 @@
 ---
 title: Introducing Pygmalion-2
 seo_title: Pygmalion-2
-summary: 
-slug: introducing_metharme_2
+summary:
+slug: introducing_pygmalion_2
 author: TearGosling & Alpin
 date: 2023-09-02T03:52:30-05:00
 
@@ -109,7 +109,7 @@ Please refer to [Appendix B](#appendix-b) for the detailed merge config.
 # Site Development
 It’s been memed a lot in our community regarding the site development. “When is the website?” someone asks. “Two more weeks” says another. As funny as it is, we appreciate the community’s patience on our website development. We have a simple image to share with you all.
 ![](sitedates.png)
-Keep in mind these are *loose* planned releases and there may be time variances. However, this is the current plan. As for the website itself, what will make it better than the other ones currently available? Tav has personally gone and scouted 15+ different websites currently available and did some market research. We are confident we can provide an excellent service. After all, if you are entering an already competitive market then the best way to ensure attention is through providing quality. More site announcements will come when the deadlines draw closer. 
+Keep in mind these are *loose* planned releases and there may be time variances. However, this is the current plan. As for the website itself, what will make it better than the other ones currently available? Tav has personally gone and scouted 15+ different websites currently available and did some market research. We are confident we can provide an excellent service. After all, if you are entering an already competitive market then the best way to ensure attention is through providing quality. More site announcements will come when the deadlines draw closer.
 
 
 ## Appendix
@@ -125,11 +125,11 @@ model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
 tokenizer_use_fast: true
 tokenizer_legacy: true
-load_in_8bit: false                    
-load_in_4bit: false     
-strict: false  
+load_in_8bit: false
+load_in_4bit: false
+strict: false
 hf_use_auth_token: true
-datasets:           
+datasets:
   - path: /home/data/datasets
     type: metharme
     data_files:
@@ -159,7 +159,7 @@ fp16: false
 tf32: true
 gradient_checkpointing: true
 logging_steps: 1
-xformers_attention: 
+xformers_attention:
 flash_attention: true
 warmup_steps: 32
 eval_steps: 64
