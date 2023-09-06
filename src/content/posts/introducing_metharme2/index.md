@@ -18,6 +18,8 @@ The burning question on many peoples' minds is likely "where have we been?" Why 
 
 Alongside that, we've also been building connections and relationships that have helped us grow and gain access to resources needed to train bigger models. This process has paid off; we now have access to H100s, the most coveted GPU in the world at the time of this writing. With them, model training and experimentation can be done much, much faster. In addition, we've recently formed a partnership with the [OpenOrca](https://huggingface.co/Open-Orca) team. You'll be hearing more from the two of us soon!
 
+Since 11b has left, you may be wondering about our current composition. The PygmalionAI's core team members are Alpin and teargosling as lead developers and Tav as project management.
+
 ## The New Pygmalion
 
 With that out of the way, let's get straight into the details of how we've trained our newest models, [Pygmalion-2 7B](https://huggingface.co/PygmalionAI/pygmalion-2-7b) and [Pygmalion-2 13B](https://huggingface.co/PygmalionAI/pygmalion-2-13b). We'll go over both the dataset used to train our models and the process of training the models themselves.
