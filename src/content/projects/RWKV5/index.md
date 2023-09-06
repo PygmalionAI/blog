@@ -1,7 +1,7 @@
 ---
 title: RWKV5
 seo_title: RWKV5
-summary: 
+summary:
 slug: rwkv5
 author: Alpin
 date: 2023-09-02T03:52:30-05:00
@@ -10,8 +10,10 @@ project types:
     - Projects
 ---
 
+**NOTE**: This page will be updated regularly.
+
 ## Introduction
-Over the past few weeks, we've been collaborating with the [RWKV](https://github.com/BlinkDL) team to pre-train a RWKV v5 model. Due to the H100s we were generously provided, we decided to aim for a 7B model. 
+Over the past few weeks, we've been collaborating with the [RWKV](https://github.com/BlinkDL) team to pre-train a RWKV v5 model. Due to the H100s we were generously provided, we decided to aim for a 7B model.
 
 Before we get into the details, let's discuss what RWKV even is.
 
@@ -24,7 +26,7 @@ However, Transformers introduced a fatal flaw that were not present in RNNs. The
 
 ### RWKV
 
-A couple years ago, [BlinkDL](https://github.com/BlinkDL) proposed a new architecture based on RNNs called the Receptance Weighted Key-Value (RWKV), that combines the efficient parallelizable training of Transformers with the efficient inference of RNNs. 
+A couple years ago, [BlinkDL](https://github.com/BlinkDL) proposed a new architecture based on RNNs called the Receptance Weighted Key-Value (RWKV), that combines the efficient parallelizable training of Transformers with the efficient inference of RNNs.
 
 Initial iterations of RWKV still struggled with distant tokens, but by the current version (v5), that issue has been largely addressed. Experiments suggest that RWKV performs on par with similarly sized Transformer models.
 
