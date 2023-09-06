@@ -146,9 +146,9 @@ dataset_prepared_path: last_prepared_run
 val_set_size: 0.01
 sequence_len: 4096
 sample_packing: true
-wandb_project: metharme2-13b-v3
+wandb_project: pygmalion-2-13b
 wandb_entity: pygmalion_ai
-output_dir: /home/data/checkpoints/metharme2-13b-v3
+output_dir: /home/data/checkpoints/pygmalion-2-13b
 gradient_accumulation_steps: 1
 micro_batch_size: 8
 num_epochs: 4
