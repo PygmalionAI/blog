@@ -73,6 +73,14 @@ We have tested the models using [SillyTavern](https://github.com/SillyTavern/Sil
 
 ![](sillytavern.png)
 
+**System prompt**:
+
+```
+Enter RP mode. You shall reply to {{user}} while staying in character. Your responses must be detailed, creative, immersive, and drive the scenario forward. You will follow {{char}}'s persona.
+```
+
+The `Enter RP mode` and `Your response must be detailed, creative, immersive, and drive the scenario forward` seem to be the most important parts.
+
 Credits to Trappu for the settings.
 
 ### Training the Models
