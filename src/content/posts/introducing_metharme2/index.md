@@ -104,6 +104,11 @@ The merge was performed by blending in layers of the two models based on specifi
 Please refer to [Appendix B](#appendix-b) for the detailed merge config.
 
 
+# Site Development
+It’s been memed a lot in our community regarding the site development. “When is the website?” someone asks. “Two more weeks” says another. As funny as it is, we appreciate the community’s patience on our website development. We have a simple image to share with you all.
+![](sitedates.png)
+Keep in mind these are *loose* planned releases and there may be time variances. However, this is the current plan. As for the website itself, what will make it better than the other ones currently available? Tav has personally gone and scouted 15+ different websites currently available and did some market research. We are confident we can provide an excellent service. After all, if you are entering an already competitive market then the best way to ensure attention is through providing quality. More site announcements will come when the deadlines draw closer. 
+
 
 ## Appendix
 
