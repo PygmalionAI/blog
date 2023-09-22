@@ -71,7 +71,7 @@ We'll divide and go over the sources of our datasets in detail from two sides: t
 ### SillyTavern
 We have tested the models using [SillyTavern](https://github.com/SillyTavern/SillyTavern). We have found the following settings to work best with our new models. Please try and change your settings to match these for optimal performance:
 
-![](sillytavern.png)
+![](https://files.catbox.moe/02rpnu.png)
 
 **System prompt**:
 
@@ -81,6 +81,26 @@ Enter RP mode. You shall reply to {{user}} while staying in character. Your resp
 
 The `Enter RP mode` and `Your response must be detailed, creative, immersive, and drive the scenario forward` seem to be the most important parts.
 
+**Generation settings**:
+
+For GPTQ:
+- Oobabooga/Text Gen WebUI:
+   - Asterism (with Repetition Penalty = 1.10)
+   - Midnight Enigma (with Repetition Penalty = 1.10)
+   - __NovelAI Storywriter__
+   - Yara (with Repetition Penalty = 1.10)
+
+- For KoboldAI/Kobold AI Lite:
+   - Pro writer (with Repetition Penalty = 1.10)
+   - Good winds (with top-p = 0.9)
+   - __Storywriter__
+
+
+For GGUF:
+
+If you're using the GGUF version of our model, we highly recommend using the preset `Mirostat` with `mode = 2`, `tau = 4`, and `eta = 0.2`
+
+Feel free to experiment with the settings, namely `Repetition Penalty` and `Temperature`.
 Credits to Trappu for the settings.
 
 ### Training the Models
