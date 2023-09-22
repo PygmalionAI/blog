@@ -90,7 +90,7 @@ For GPTQ:
    - __NovelAI Storywriter__
    - Yara (with Repetition Penalty = 1.10)
 
-- For KoboldAI/Kobold AI Lite:
+- KoboldAI/Kobold AI Lite:
    - Pro writer (with Repetition Penalty = 1.10)
    - Good winds (with top-p = 0.9)
    - __Storywriter__
