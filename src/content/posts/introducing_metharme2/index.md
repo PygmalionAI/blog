@@ -87,21 +87,22 @@ For GPTQ:
 - Oobabooga/Text Gen WebUI:
    - Asterism (with Repetition Penalty = 1.10)
    - Midnight Enigma (with Repetition Penalty = 1.10)
-   - __NovelAI Storywriter__
+   - NovelAI Storywriter
    - Yara (with Repetition Penalty = 1.10)
 
-- KoboldAI/Kobold AI Lite:
+- KoboldAI/Horde:
    - Pro writer (with Repetition Penalty = 1.10)
    - Good winds (with top-p = 0.9)
-   - __Storywriter__
+   - Storywriter
 
 
-For GGUF:
+For koboldcpp/llama.cpp/exllama_HF:
 
-If you're using the GGUF version of our model, we highly recommend using the preset `Mirostat` with `mode = 2`, `tau = 4`, and `eta = 0.2`
+If you're using our model with either of these, we recommend using the preset `Mirostat` with `Mode = 2`, `Tau = 5`, and `Eta = 0.1`
 
-Feel free to experiment with the settings, namely `Repetition Penalty` and `Temperature`.
-Credits to Trappu for the settings.
+These settings and presets are only there to help you get started. We highly recommend that you experiment with these values depending on what you need, especially `Repetition Penalty` and `Temperature` as well as `Tau` and `Eta` when using mirostat.
+
+Credits to Trappu and AliCat for the settings.
 
 ### Training the Models
 While the general public has not seen us release any major models for (too many) months, that doesn't mean we haven't been training any new ones. For the past few months, we've been experimenting and gaining experience in fine-tuning new models by sending potential release candidates to a team of testers. Through their help, we've iterated constantly upon feedback to create a model that's ready for release and worth the weight. Let's go into the specifics of our latest models.
