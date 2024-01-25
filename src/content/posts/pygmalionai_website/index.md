@@ -18,7 +18,7 @@ The link will give everyone access to our website’s character repository. We h
 
 On the **1st of February, we will begin our closed beta period for the chatting section of the site** to determine the stability, usability, operations cost, and other metrics. This will influence how we determine our subscription pricing. 
 
-You can sign up for the closed beta here - https://forms.gle/vpM38MG3ejKMNHf99
+Sign up for our closed beta will be announced three times on our Discord - discord.gg/pygmalionai
 
 I recommend reading the rest of the blogpost as it will **cover the policies, roadmap and general direction for PygmalionAI.**
 
@@ -26,8 +26,7 @@ I recommend reading the rest of the blogpost as it will **cover the policies, ro
 
 No. There will be no invasive safety guardrails. The only thing the site will moderate:
 - Adult content characters must be kept private 
-- Publicly posted characters will have some generation differences when chatted with to respect the original intent of the creator
-- Publicly posted characters will go through a human moderated approval queue
+- Publicly posted characters will go through a human moderated approval queue. Approved creators can skip this queue.
 
 Please read further if you want to know why.
 
@@ -35,7 +34,8 @@ Please read further if you want to know why.
 If you have used the various chatting websites on the market, then you may be aware of the struggles those sites have with finding appropriate payment processors. Here is some recent examples:
 
 - Spicychat.AI lost their support from Stripe and Patreon for adult content violations.
-- YodayoAI lost their support from Stripe and AppStore for adult content violations.
+- YodayoAI lost their support from Stripe for adult content violations.
+- Other platforms that build an app for their website with adult contents have difficulties being available the App Store and Google Play.
 
 Operating an LLM chatting service is not cheap; we will have to rely on community support. Stripe, a popular payment processor, recently updated their restricted business guidelines to incorporate AI-generated content. Here is an excerpt from this page: [Stripe Legal Page](https://stripe.com/us/legal/restricted-businesses).  
 
@@ -81,21 +81,13 @@ There are a lot of arguments currently regarding the use cases of AI and how it 
 
 World building, making original characters, establishing the details, figuring out the relationships can only be done with human creativity. A custom model that will run NPC dialogues will still require the baseline information that a human created. For example, a game world built on the complicated relationship structure of a nation of sentient rats and mice can only be crafted with human precision. The names, the specific lore, the unique linguistic features even. This can only be crafted and added to a model by a person. We believe there can be a collaborative relationship between script writers for games, and a person who can apply it to a model to generate immersive dialogue according to the writer’s specifications. The creative process is still important going forward.
 
-A lot of the features we would like to have on our website can be doubled as tech demos for model integrations into existing video game genres. The smaller we can make the models while keeping the quality will make it easy to support less powerful devices like mobile phones. It is an area that is largely unexplored. A lot of the “meta” for producing models is focused on beating benchmarks and being “better” than OpenAI models. It is a bandwagon we don’t want to follow. We can continue developing in this space as long as we have the money to sustain ourselves. You can support us by using our website and other endeavors we have planned according to the principles of open source. 
+A lot of the features we would like to have on our website can be doubled as tech demos for model integrations into existing video game genres. The smaller we can make the models while keeping the quality will make it easy to support less powerful devices with less VRAM. It is an important area to be explored to encourage more hobbyist development. A lot of the “meta” for producing models is focused on beating benchmarks and being “better” than OpenAI models. It is a bandwagon we don’t want to follow. We can continue developing in this space as long as we have the money to sustain ourselves. You can support us by using our website and other endeavors we have planned according to the principles of open source. 
 
 ## Are You Really Going to Keep Open-Sourcing Stuff?
 Yes, consistently for our models. Regarding other projects, our approach is as follows. If we invest a large sum in development, we aim to recover the investment by creating a service for it, as these costs are typically covered from our own pockets. Once we've not only recouped our initial investment but also earned an additional ten percent, we commit to open sourcing it under a permissible license. Adopting a model where everything is open-sourced upon completion would lead to **unsustainable** financial outcomes. To incentivize the responsible recovery of investments, we will establish public deadlines for the release of projects as open source. The founders—Alpin, Teargosling, and Tav—are motivated by the advancement of open source, not monetary gains. Our goal is to generate sufficient funds to cover our expenses and lead a modest life. Note that this does not encompass our current open-source projects, such as our inference engine.
 
 ## Will the Site Revenue Be Enough?
-We won’t be sitting on just our chatting service and assume it will be enough for the long term. Here are some other revenue ideas we can tackle down the line:
-
-- Bundle our models with seamless integration into established game engines for a fixed fee.
-- Bundle our models with seamless integration into established game engines for a fixed fee.
-- Accept compensation from study groups for conducting voluntary surveys and tests involving our community (this path will be avoided if it is unacceptable by our users).
-- Create entertaining and affordable lightweight applications (priced under $5) as tech demos for PC and mobile phones, aiming to inspire other developers to delve into this technology.
-- Investigate image generation and audio generation models, offering an alternative service to existing ones (taking into account the current divided opinions on data curation, ensuring a careful approach).
-- Receive sponsorship deals for any community events we organize.
-- Explore content creation .
+We believe so for getting us off the ground. A lot of it is dependent on working with the community and building the best service we can. As long as we continue to deliver and present new ways to engage with an AI chatting website. We believe there is a reason to support us. Our main focus is ensuring the website is operational sustainability and paying any developers we will work with us. Any remaining funds will be given to the co-founders for their livelihood expenses and personal re-investments into PygmalionAI. In the event of difficult financial periods, the co-founders are no stranger to doing additional contracts or jobs to make ends meet within the company. We are committed to keeping the lights on in PygmalionAI as long as we can.
 
 ## Anything Else?
-Please stay tuned for our closed beta announcement. I also encourage people to read the content guidelines on our website when it is finished. The link to it will be provided when it has been finalized. 
+Please stay tuned for our closed beta announcement. I also encourage people to read the community guidelines on our website when it is finished. The link to it will be provided when it has been finalized. 
