@@ -120,9 +120,8 @@ Now, I know some people don't have the means to support us financially, be it du
 Before I wrap things up, I'll allow my other co-founders have a say too.
 
 ## Words from Alpin
+A warm thanks to the many members of the Pygmalion community, generously supporting this effort with their kind words and patience. You're all truly wonderful. Have a good one.
 
-< ALPIN WRITE YOUR SECTION HERE >
-< YOU CAN CHANGE THE HEADER >
 ## Words from TearGosling
 
 < GOSLING WRITE YOUR SECTION HERE >
