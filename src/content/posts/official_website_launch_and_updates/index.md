@@ -73,11 +73,11 @@ My conclusion was that we need to have features. And a lot of it.
 
 **Here is what exists on the site currently.** There are more additional features on the site but this image covers the major ones.
 
-![](https://files.catbox.moe/ymrryw.png)
+![](https://files.catbox.moe/pb011r.png)
 
 **And here is what is planned for the future.**
 
-![](https://files.catbox.moe/pb011r.png)
+![](https://files.catbox.moe/ymrryw.png)
 
 You may be curious what this "Unnamed Project" is about. In short, it is an advanced customisation system related to prompting. In order for us to make cool scenarios and experiences, this needs to be built first. 
 
@@ -86,15 +86,13 @@ I'm going to avoid pigeon-holing ourselves into one approach. As long as there i
 If you would to stick along for the ride and see what we cook up, you can support our endeavours by giving a subscription on our site.
 
 ## Models
-We will be releasing two models as well alongside with our website for the open-source community. 
+Alongside our launch of the website, we're going to release the weights of two new models for the LLM community, both featured on our website: Pygmalion-3 12B, our standard roleplay model, and Eleusis-12B, an experimental model which people have enjoyed. Both models, created from the Mistral Nemo base model, are under the permissive Apache 2.0 license. Through this, we hope that our models help further enrich the open-source LLM sphere, as we always try to do.
 
-< INSERT MODEL STUFF HERE >
+Launching our website with new released weights does not mean our effort to make good chat models is done. Currently, we're working behind the scenes to create a wider variety of models that are suited for more specialized purposes, such as shorthand chatting or text adventure games. We're also looking into making our models even more soulful, as a proper return to the days of old. Look forward to more news about that soon!
 
-< INSERT PLANS FOR MAKING MODELS HERE >
+As an aside, we'd like to note that our models from here on out will be developed with the expectation of being released on the site first and with the features of the site in mind. This, of course, doesn't mean that we're shying away from open-source - all it means is that we want to focus on models which will get ourselves off the ground first. If we have no money, we can't really keep developing models.
 
-< IMPORTANT KEY POINT - WE'LL BE MAKING MODELS DESIGNED FOR THE SITE FIRST >
-
-< MENTION OUR FOCUS IS ON TEXT GEN MODELS ONLY AND OTHER FORMS OF GENERATIVE MODELS REQUIRE COLLABORATIVE WORK WITH OTHER GROUPS >
+Right now, we're solely focused on making textgen models. At the moment, we have no plans for releasing any other type of generative model; any release in that field would have to be done in collaboration with other groups and contributors.
 
 ## Transparency From Tav
 It is no secret that PygmalionAI is a bootstrapped company. Meaning, anything involving money is funded by our own wallets. From paying developers, meeting bill invoices, and setting up advertising runs. 
@@ -123,10 +121,11 @@ Before I wrap things up, I'll allow my other co-founders have a say too.
 A warm thanks to the many members of the Pygmalion community, generously supporting this effort with their kind words and patience. You're all truly wonderful. Have a good one.
 
 ## Words from TearGosling
+It's hard to believe it's been more than two years since Pyg was founded. To be honest, I never imagined that a single post on a forum and the forking of two GitHub repos would lead to this, and I'm endlessly grateful to everyone that helped bring us here. We've had a long and bumpy road to the present day, with lots of delays, setbacks and learning experiences, but thanks to the hard work of many incredible people and the patience of you wonderful gaggle of enthusiasts, enjoyers and fans, I'm glad to say that we're finally up and running with many promising things in the works. Thank you, now and forever, for your help along the way.
 
-< GOSLING WRITE YOUR SECTION HERE >
-< YOU CAN CHANGE THE HEADER >
+And to a certain developer (you know who you are) who helped me from the very start to turn a dream into reality: I miss you, brother. I hope you're doing well, and I hope you're proud of us and what we've accomplished thanks to your endless assistance and insane work. I and the team can never thank you enough for everything you've done for us.
 
+I hope you all enjoy our effort of love and care, and of course, if you don't, we're always listening. Thank you again, everybody. Keep your smile. Keep on smiling.
 ## Final Remarks
 
 < I WILL WRITE THIS WHEN YOU GUYS HAVE ADDED IN THE DETAILS >
