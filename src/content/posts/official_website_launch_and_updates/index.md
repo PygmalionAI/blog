@@ -125,6 +125,6 @@ It's hard to believe it's been more than two years since Pyg was founded. To be 
 And to a certain developer (you know who you are) who helped me from the very start to turn a dream into reality: I miss you, brother. I hope you're doing well, and I hope you're proud of us and what we've accomplished thanks to your endless assistance and insane work. I and the team can never thank you enough for everything you've done for us.
 
 I hope you all enjoy our effort of love and care, and of course, if you don't, we're always listening. Thank you again, everybody. Keep your smile. Keep on smiling.
-## Final Remarks
 
-< I WILL WRITE THIS WHEN YOU GUYS HAVE ADDED IN THE DETAILS >
+## Final Remarks
+Thank you for reading the entirety of the blogpost. I appreciate it. I consider this the turning point for PygmalionAI in many ways. There is going to be lots growing pains in 2025 and beyond. My main priority is making sure we survive each and every step of the way. I, and the rest of the team, have exciting things planned. There will be more regular communication on our plans and actions going forward.
