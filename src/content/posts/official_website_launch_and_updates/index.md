@@ -47,7 +47,7 @@ TearGosling kept tinkering away at building datasets and training to potentially
 ## The Site and What We'll Do
 With the brief history segment out of the way, lets talk about the site. 
 
-< ADD IMAGE OF HOMEPAGE HERE AFTER FEATURED CHARACTERS ARE DONE >
+![](https://files.catbox.moe/v2fkkk.png)
 
 I spent a lot of time doing my own due diligence on building a good website. The additional time, while unexpected, spent on developing the website has allowed me to really focus on what we should do. Everything regarding the site, the responsibilities and directions, falls upon my shoulders. It's a tough job, nevertheless, I personally find it fun. Lets go over some key points.
 #### No Matter What, Respect the Promise
