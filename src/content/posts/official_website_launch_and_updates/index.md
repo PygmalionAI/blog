@@ -26,8 +26,7 @@ I recommend reading the rest of this blogpost before proceeding to the site.
 The AI industry moves fast so let me go over what this project is. 
 
 #### Current Founders
-![](https://files.catbox.moe/xuk4xx.png)
-< TEMPORARY IMAGE >
+![]([https://files.catbox.moe/xuk4xx.png](https://files.catbox.moe/wr31ye.png))
 #### Brief History
 This projected started back in late 2022. It was initially formed by people who were users of Character.AI, way back when Character.AI just started as a website, and decided that there needed to be an alternative as the site was in constant decline. Anyone who has the used it knows what I mean - generation degradation, unfocused site updates and most importantly the filter.
 
