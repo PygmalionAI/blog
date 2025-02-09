@@ -3,7 +3,7 @@ baseURL = 'https://blog.pygmalion.chat' # Enter your full production URL
 languageCode = 'en-us' # Default
 timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 title = 'PygmalionAI Blog' # Site title used throughout site
-avatar = 'images/chisel.png'
+avatar = 'chisel.png'
 avatar_grayscale = false
 
 ### SEO, Analytics & 3rd-party
