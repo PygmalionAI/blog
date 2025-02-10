@@ -25,7 +25,7 @@ I recommend reading the rest of this blogpost before proceeding to the site.
 ## Recap Over PygmalionAI
 The AI industry moves fast so let me go over what this project is. 
 
-#### Current Founders
+#### Current Founders and Stakeholder
 ![foundersv2](https://github.com/user-attachments/assets/7af479e2-29c7-4f00-bda3-c0e805e838ec)
 
 #### Brief History
