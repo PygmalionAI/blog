@@ -4,7 +4,7 @@ seo_title: PygmalionAI Website Launch
 summary: Our official launch!
 slug: website_update
 author: Tav
-date: 2025-02-12
+date: 2025-02-11
 
 project types:
     - Announcements
