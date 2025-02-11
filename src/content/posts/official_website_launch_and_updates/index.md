@@ -103,7 +103,7 @@ That is not an option for us. Comparing us to them would be unfair.
 
 I don't enjoy interacting with investors. I tried, dipped my toes into the waters, and decided it wasn't the approach. Living on borrowed cash and trying to constantly appease the investors, I feel, is the antithesis of a community first approach. It does mean however, that the community is the make it or break it for us. In other words, the longevity of PygmalionAI depends on community support.
 
-While publicly, I'm titled as "Project Manager", my official role in the documents at PygmalionAI is the CFO, aka the money guy, and I will do my best to make sure we can last as long as possible. If I have to work full-time (alongside PygmalionAI work) to make ends meet, then so be it, if I have to pay out of pocket to cover deficits, I will do it.  
+While publicly, I'm titled as "Project Manager", my official role in the documents at PygmalionAI is the CFO, aka the money guy, and I will do my best to make sure we can last as long as possible. If I have to work full-time (alongside PygmalionAI work) to make ends meet, then so be it, and if I have to pay out of pocket to cover deficits, I will do it.  
 
 At the same time, I'll be making sure to drop regular financial updates. My main goal is sustainability. When we earn enough money from our platform to cover the maintenance costs and paying our developer team without relying on our personal funds, that is when I say we "made it" as a company. 
 
