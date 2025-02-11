@@ -22,13 +22,13 @@ The website is here - https://pygmalion.chat/
 I recommend reading the rest of this blogpost before proceeding to the site.
 
 ----
-## Recap Over PygmalionAI
+### Recap Over PygmalionAI
 The AI industry moves fast so let me go over what this project is. 
 
-### Current Founders and Stakeholder
+#### Current Founders and Stakeholder
 ![foundersv2](https://github.com/user-attachments/assets/7af479e2-29c7-4f00-bda3-c0e805e838ec)
 
-### Brief History
+#### Brief History
 This projected started back in late 2022. It was initially formed by people who were users of Character.AI, way back when Character.AI just started as a website, and decided that there needed to be an alternative as the site was in constant decline. Anyone who has used it knows what I mean - generation degradation, unfocused site updates and most importantly the filter.
 
 Our first approach was building a model that could replicate the same experience. After a series of iterations, we eventually trained Pygmalion-6B to great success. Anyone who has been in the local community for a few years knows this model. We made several more model drops, not to the same success as Pygmalion-6B, in 2023, but we got things out there. 
@@ -50,6 +50,7 @@ With the brief history segment out of the way, lets talk about the site.
 ![](https://files.catbox.moe/v2fkkk.png)
 
 I spent a lot of time doing my own due diligence on building a good website. The additional time, while unexpected, spent on developing the website has allowed me to really focus on what we should do. Everything regarding the site, the responsibilities and directions, falls upon my shoulders. It's a tough job, nevertheless, I personally find it fun. Lets go over some key points.
+
 ### No Matter What, Respect the Promise
 What do I mean by this? 
 
@@ -67,7 +68,7 @@ The biggest headache I have to deal is scale. The more users we have, the more m
 
 If I was forced to make a decision to keep the website operating smoothly, then I would rather reduce what free users can do on the site until we can optimise things further. So, I'll abide by saying that free users will be the one hit the hardest when it comes to quality of service. It is an unfortunate reality in order to keep the site operational.
 
-## Staying Away From the Adult Space
+### Staying Away From the Adult Space
 If you have been around the internet a lot, then you may have seen advertisements for platforms like "Hot AI girlfriend/boyfriends" or "NSFW Chatting Fun ;)" and other examples. I personally seen it a lot and it is a crowded area. 
 
 I do not wish for PygmalionAI to fall into the same area. I understand the importance of keeping things uncensored, you can trust me on that. My manoeuvrability to guide PygmalionAI for long term success hinges on the initial direction that's chosen. From what I've seen, what I've discussed, and what I've researched, the adult space at best, is dubious to exist in, and at worst, it will kill the longevity of PygmalionAI. 
@@ -95,7 +96,7 @@ I'm going to avoid pigeon-holing ourselves into one approach. As long as there i
 
 If you would to stick along for the ride and see what we cook up, you can support our endeavours by giving a subscription on our site.
 
-## Models
+### Models
 Alongside our launch of the website, we're going to release the weights of two new models for the LLM community, both featured on our website: Pygmalion-3 12B, our standard roleplay model, and Eleusis-12B, an experimental model which people have enjoyed. Both models, created from the Mistral Nemo base model, are under the permissive Apache 2.0 license. Through this, we hope that our models help further enrich the open-source LLM sphere, as we always try to do.
 
 Launching our website with new released weights does not mean our effort to make good chat models is done. Currently, we're working behind the scenes to create a wider variety of models that are suited for more specialized purposes, such as shorthand chatting or text adventure games. We're also looking into making our models even more soulful, as a proper return to the days of old. Look forward to more news about that soon!
@@ -104,7 +105,7 @@ As an aside, we'd like to note that our models from here on out will be develope
 
 Right now, we're solely focused on making textgen models. We have no plans for releasing any other type of generative model; any release in that field would have to be done in collaboration with other groups and contributors.
 
-## Transparency From Tav
+### Transparency From Tav
 It is no secret that PygmalionAI is a bootstrapped company. Meaning, anything involving money is funded by our own wallets. From paying developers, meeting bill invoices, and setting up advertising runs. 
 
 In the start-up world, this is the most difficult approach. High risk, stressful and it requires a lot of effort from the founders. Running an AI platform is expensive and high capital sites like OpenAI and Character.AI are subsidising their costs with money raised from investors. They have the ability to do stuff for free for a lot of users.
@@ -127,24 +128,24 @@ I'm very aware some people don't have the means to support us financially, be it
 
 Before I wrap things up, I'll allow my other co-founders, and our only stakeholder currently Autometa, have a say too.
 
-## Words from Alpin
+### Words from Alpin
 A warm thanks to the many members of the Pygmalion community, generously supporting this effort with their kind words and patience. You're all truly wonderful. Have a good one.
 
-## Words from TearGosling
+### Words from TearGosling
 It's hard to believe it's been more than two years since Pyg was founded. To be honest, I never imagined that a single post on a forum and the forking of two GitHub repos would lead to this, and I'm endlessly grateful to everyone that helped bring us here. We've had a long and bumpy road to the present day, with lots of delays, setbacks and learning experiences, but thanks to the hard work of many incredible people and the patience of you wonderful gaggle of enthusiasts, enjoyers and fans, I'm glad to say that we're finally up and running with many promising things in the works. Thank you, now and forever, for your help along the way.
 
 And to a certain developer (you know who you are) who helped me from the very start to turn a dream into reality: I miss you, brother. I hope you're doing well, and I hope you're proud of us and what we've accomplished thanks to your endless assistance and insane work. I and the team can never thank you enough for everything you've done for us.
 
 I hope you all enjoy our effort of love and care, and of course, if you don't, we're always listening. Thank you again, everybody. Keep your smile. Keep on smiling.
 
-## Words from Autometa 
+### Words from Autometa 
 Its rare when you find yourself in the fortunate position of spending your time working on something you care about, let alone with people you care about. I'm endlessly grateful to the incredibly intelligent, consistent, and deeply talented people with whom I work with, and for those who walk along side us as we pursue a world where the ability to participate in artistic self expression comes as naturally as breathing for everyone.
 
 Thanks guys, 
 The future is going to be *very* interesting. 
 Dont miss it!
 
-## Final Remarks
+### Final Remarks
 This concludes the entirety of the blogpost. I consider this the turning point for PygmalionAI in many ways. There is going to be lots growing pains in 2025 and beyond. My main priority is making sure we survive each and every step of the way. I, and the rest of the team, have exciting things planned. There will be more regular communication on our plans and actions going forward. 
 
 Once again, I, Tav, the Project Lead, thank you again for your patience and support. It means a lot to me.
