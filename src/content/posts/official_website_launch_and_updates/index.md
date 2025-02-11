@@ -113,7 +113,7 @@ I already offered to be last on the list when it comes to receiving pay from Pyg
 
 I would like to change that and I believe it is very possible.
 
-Now, I know some people don't have the means to support us financially, be it due to the USD being too expensive, or you're simply unable for myriad of reasons. It's fine. As long as you tell us on how to improve things, give suggestions on what you'd like to see, and in general, remain passionate for text generative AI then that's all I ask. 
+I'm very aware some people don't have the means to support us financially, be it due to the USD being too expensive, or you're simply unable for myriad of reasons. It's fine. As long as you tell us on how to improve things, give suggestions on what you'd like to see, and in general, remain passionate for text generative AI then that's all I ask. 
 
 Before I wrap things up, I'll allow my other co-founders have a say too.
 
