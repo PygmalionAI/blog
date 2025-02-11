@@ -66,6 +66,16 @@ As for the quality of the models, that is tricky because everyone has their stan
 The biggest headache I have to deal is scale. The more users we have, the more machines we have to deploy, which means we need to pay more for these machines. I am committed to allowing people to use our platform for free at some capacity, like Character.AI does, but I also don't have millions and millions of dollars to burn to meet those user demands. This leaves me with three options. Sacrifice quality for speed or reduce what the free users can do on the site. Either option is going to make people unhappy. The final third option, which is the hardest one, and cannot be done immediately, is constantly optimising models to be smaller but keeping the same quality, and increasing the speed of our inference engine. This takes a lot of development work.
 
 If I was forced to make a decision to keep the website operating smoothly, then I would rather reduce what free users can do on the site until we can optimise things further. So, I'll abide by saying that free users will be the one hit the hardest when it comes to quality of service. It is an unfortunate reality in order to keep the site operational.
+
+## Staying Away From the Adult Space
+If you have been around the internet a lot, then you may have seen advertisements for platforms like "Hot AI girlfriend/boyfriends" or "NSFW Chatting Fun ;)" and other examples. I personally seen it a lot and it is a crowded area. 
+
+I do not wish for PygmalionAI to fall into the same area. I understand the importance of keeping things uncensored, you can trust me on that. My manoeuvrability to guide PygmalionAI for long term success hinges on the initial direction that's chosen. From what I've seen, what I've discussed, and what I've researched, the adult space at best, is dubious to exist in, and at worst, it will kill the longevity of PygmalionAI. 
+
+The foundations of the platform has been carefully decided, I assure you, and everything I did was for the sake of survival. If you find yourself a fan of the heavily adult-space branded platforms, and was hoping for us to be a part of it, I'm sorry to disappoint you but it is not an option for us, or will be in the future. There are plenty of other platforms that exist out there. 
+
+Remember, the promise was to build a Character.AI alternative and C.AI itself is not in the adult space. If you know where we originated from, then you'll know our original reasons for starting this project.
+
 ### Generic Clone Avoidance
 A major stressing point was figuring out how to avoid our website feeling like it is another generic clone of already existing platforms. "Why should people pay for our platform?" was the big question. 
 
