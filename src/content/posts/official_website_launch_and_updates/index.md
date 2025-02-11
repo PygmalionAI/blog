@@ -92,7 +92,7 @@ Launching our website with new released weights does not mean our effort to make
 
 As an aside, we'd like to note that our models from here on out will be developed with the expectation of being released on the site first and with the features of the site in mind. This, of course, doesn't mean that we're shying away from open-source - all it means is that we want to focus on models which will get ourselves off the ground first. If we have no money, we can't really keep developing models.
 
-Right now, we're solely focused on making textgen models. At the moment, we have no plans for releasing any other type of generative model; any release in that field would have to be done in collaboration with other groups and contributors.
+Right now, we're solely focused on making textgen models. We have no plans for releasing any other type of generative model; any release in that field would have to be done in collaboration with other groups and contributors.
 
 ## Transparency From Tav
 It is no secret that PygmalionAI is a bootstrapped company. Meaning, anything involving money is funded by our own wallets. From paying developers, meeting bill invoices, and setting up advertising runs. 
