@@ -136,3 +136,7 @@ Dont miss it!
 
 ## Final Remarks
 Thank you for reading the entirety of the blogpost. I appreciate it. I consider this the turning point for PygmalionAI in many ways. There is going to be lots growing pains in 2025 and beyond. My main priority is making sure we survive each and every step of the way. I, and the rest of the team, have exciting things planned. There will be more regular communication on our plans and actions going forward.
+
+Much appreciation from,
+Tav,
+Project Lead
