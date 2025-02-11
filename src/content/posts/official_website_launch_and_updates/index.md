@@ -25,10 +25,10 @@ I recommend reading the rest of this blogpost before proceeding to the site.
 ## Recap Over PygmalionAI
 The AI industry moves fast so let me go over what this project is. 
 
-#### Current Founders and Stakeholder
+### Current Founders and Stakeholder
 ![foundersv2](https://github.com/user-attachments/assets/7af479e2-29c7-4f00-bda3-c0e805e838ec)
 
-#### Brief History
+### Brief History
 This projected started back in late 2022. It was initially formed by people who were users of Character.AI, way back when Character.AI just started as a website, and decided that there needed to be an alternative as the site was in constant decline. Anyone who has used it knows what I mean - generation degradation, unfocused site updates and most importantly the filter.
 
 Our first approach was building a model that could replicate the same experience. After a series of iterations, we eventually trained Pygmalion-6B to great success. Anyone who has been in the local community for a few years knows this model. We made several more model drops, not to the same success as Pygmalion-6B, in 2023, but we got things out there. 
@@ -50,7 +50,7 @@ With the brief history segment out of the way, lets talk about the site.
 ![](https://files.catbox.moe/v2fkkk.png)
 
 I spent a lot of time doing my own due diligence on building a good website. The additional time, while unexpected, spent on developing the website has allowed me to really focus on what we should do. Everything regarding the site, the responsibilities and directions, falls upon my shoulders. It's a tough job, nevertheless, I personally find it fun. Lets go over some key points.
-#### No Matter What, Respect the Promise
+### No Matter What, Respect the Promise
 What do I mean by this? 
 
 Back early on, our original promise was to build a Character.AI alternative. The biggest criticism of that platform was its filter and the constant quality deterioration of the models. For us to do the same thing would be a violation of the original promise.
@@ -66,7 +66,7 @@ As for the quality of the models, that is tricky because everyone has their stan
 The biggest headache I have to deal is scale. The more users we have, the more machines we have to deploy, which means we need to pay more for these machines. I am committed to allowing people to use our platform for free at some capacity, like Character.AI does, but I also don't have millions and millions of dollars to burn to meet those user demands. This leaves me with three options. Sacrifice quality for speed or reduce what the free users can do on the site. Either option is going to make people unhappy. The final third option, which is the hardest one, and cannot be done immediately, is constantly optimising models to be smaller but keep the same quality, and increasing the speed of our inference engine. This takes a lot of development work.
 
 If I was forced to make a decision to keep the website operating smoothly, then I would rather reduce what free users can do on the site until we can optimise things further. So, I'll go on record saying that free users will be the one hit the hardest when it comes to quality of service. It is an unfortunate reality in order to keep the site operational.
-#### Generic Clone Avoidance
+### Generic Clone Avoidance
 A major stressing point was figuring out how to avoid our website feeling like it is another generic clone of already existing platforms. "Why should people pay for our platform?" was the big question. 
 
 My conclusion was that we need to have features. And a lot of it. 
