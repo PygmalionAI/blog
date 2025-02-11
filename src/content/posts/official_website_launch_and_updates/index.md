@@ -128,7 +128,7 @@ And to a certain developer (you know who you are) who helped me from the very st
 I hope you all enjoy our effort of love and care, and of course, if you don't, we're always listening. Thank you again, everybody. Keep your smile. Keep on smiling.
 
 ## Words from Autometa 
-Its rare when you find yourself in the fortunate position of spending your time working on something you care about, let alone with people you care about. I'm endlessly grateful to the incredibly intelligent, consistent, and deeply talented people with whom i work, and for those who walk along side us as we pursue a world where the ability to participate in artistic self expression comes as naturally as breathing for everyone.
+Its rare when you find yourself in the fortunate position of spending your time working on something you care about, let alone with people you care about. I'm endlessly grateful to the incredibly intelligent, consistent, and deeply talented people with whom I work with, and for those who walk along side us as we pursue a world where the ability to participate in artistic self expression comes as naturally as breathing for everyone.
 
 Thanks guys, 
 The future is going to be *very* interesting. 
