@@ -43,7 +43,7 @@ Alpindale went off and started building Aphrodite-Engine. A batched inference be
 Tav went off and started forming a web development team. The website was called Galatea internally.
 TearGosling kept tinkering away at building datasets and training to potentially release new Pygmalion models.
 
-2024 was the year of constant dedication to building our respective projects. It is the reason why we kept things quiet so we can focus and successfully complete our own projects. We were still active with our community, that being the Discord, who helped us a lot with testing our projects. We sincerely appreciate everyone for their help. 
+2024 was the year of constant dedication to building our respective projects. It is the reason why we kept things quiet so we can focus and successfully complete our own tasks. We were still active with our community, that being the Discord, who helped us a lot with testing our projects. We sincerely appreciate everyone for their help. 
 ## The Site and What We'll Do
 With the brief history segment out of the way, lets talk about the site. 
 
