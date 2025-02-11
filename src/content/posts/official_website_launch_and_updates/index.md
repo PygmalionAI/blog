@@ -57,7 +57,7 @@ Back early on, our original promise was to build a Character.AI alternative. The
 
 This promise can be interpretative however and I want to set the record straight on what exactly I am upholding here. 
 
-I treat the "Filter" as a hard "NO", or in otherwise, a flat out denial on an user interaction. There are two levels to this, (a) external system independent of the model that checks whether an interaction is "appropriate", and (b) model itself does a hard refusal with the interaction. Generations like "As an AI assistant, I cannot..." is a standard example of (b). If you came from Character.AI, then you'll be very familiar with (a).
+I treat the "Filter" as a hard "NO", or in other words, a flat out denial on an user interaction. There are two levels to this, (a) external system independent of the model that checks whether an interaction is "appropriate", and (b) model itself does a hard refusal with the interaction. Generations like "As an AI assistant, I cannot..." is a standard example of (b). If you came from Character.AI, then you'll be very familiar with (a).
 
 I'll go on record and say we won't be doing any of this. 
 
