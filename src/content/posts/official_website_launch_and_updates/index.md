@@ -29,7 +29,7 @@ The AI industry moves fast so let me go over what this project is.
 ![foundersv2](https://github.com/user-attachments/assets/7af479e2-29c7-4f00-bda3-c0e805e838ec)
 
 #### Brief History
-This projected started back in late 2022. It was initially formed by people who were users of Character.AI, way back when Character.AI just started as a website, and decided that there needed to be an alternative as the site was in constant decline. Anyone who has the used it knows what I mean - generation degradation, unfocused site updates and most importantly the filter.
+This projected started back in late 2022. It was initially formed by people who were users of Character.AI, way back when Character.AI just started as a website, and decided that there needed to be an alternative as the site was in constant decline. Anyone who has used it knows what I mean - generation degradation, unfocused site updates and most importantly the filter.
 
 Our first approach was building a model that could replicate the same experience. After a series of iterations, we eventually trained Pygmalion-6B to great success. Anyone who has been in the local community for a few years knows this model. We made several more model drops, not to the same success as Pygmalion-6B, in 2023, but we got things out there. 
 
