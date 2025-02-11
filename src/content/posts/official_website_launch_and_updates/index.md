@@ -109,7 +109,7 @@ At the same time, I'll be making sure to drop regular financial updates. My main
 
 The allocation of money will go as follows - Invoices/Maintenance > Developers > Founders.
 
-I already offered to be last on the list when it comes to receiving pay from PygmalionAI. I didn't join up this project to make a quick buck and vanish. I like AI, especially text generations, and I want to us to do cool things. To those who have interacted with me before on my research focus, it has always about text styles. While image generation and audio generative have very simplified pipelines to create styles per user customisation, in text generation, it doesn't really exist. 
+I already offered to be last on the list when it comes to receiving pay from PygmalionAI. I didn't join up this project to make a quick buck and vanish. I like AI, especially text generations, and I want to us to do cool things. To those who have interacted with me before on my research focus, it has always been about text styles. While image generation and audio generation have very simplified pipelines to create styles per user customisation, in text generation, it doesn't really exist. 
 
 I would like to change that and I believe it is very possible.
 
