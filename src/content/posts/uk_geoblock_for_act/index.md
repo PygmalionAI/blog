@@ -4,7 +4,7 @@ seo_title: UK Geoblock for Online Safety Act
 summary: Notice of restriction for UK users due to the new online safety act coming into effect on the 25th of July, 2025.
 slug: uk_geoblock
 author: Tav
-date: 2025-07-24
+date: 2025-07-22
 
 project types:
     - Announcements
