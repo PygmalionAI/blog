@@ -36,4 +36,8 @@ We are going off the schedule located here: https://www.ofcom.org.uk/online-safe
 Fines. And if possible, if we are particularly negligiable, jail time. Ofcom, the body responsible for enforcing this Act, can put the team behind a service under criminal liability. These punishments can happen randomly at anytime by Ofcom. Getting into legal issues now, or in the future, will be a potential deathblow to PygmalionAI so I would like to avoid that situation from happening. Even if temporarily, UK users have to deal with restrictions. 
 
 ## What we will do
+For now, to give us some time, we'll go with the geoblock option. It seems that JanitorAI, ChubAI and Civitai have already done this decision on their end. However, we don't host NSFW content, nor do we condone it, so we may be less subjected to the strict requirements in the Act. We're still uncertain so we will need to look at the Act line by line. The team and I dislike blocking any users from the site. We will have an attempt at changing the site for the UK users so they can continue accessing without having to change their region. This is an attempt, not a promise, and depending on the complexity, it might not be done quickly, or in the worst case, at all.
+
+## Refunds available
+If you are an UK user and you have an on-going subscription, we will be happy to refund your subscription. You can do this by emailing our support at **support@pygmalion.chat** and if that for some reason is unresponsive, please email **teargosling@pygmalion.chat** or **tav@pygmalion.chat**. 
 
