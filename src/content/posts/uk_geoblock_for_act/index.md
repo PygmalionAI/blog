@@ -16,7 +16,7 @@ I dislike doing unexpected announcements. However, there is a situation for UK u
 
 The UK region includes England, Scotland, Wales and Northern Ireland. When users from this region attempt to use the site, they will receive a custom error page displaying what is going on. We will like to keep this as temporary as possible.
 
-# Further Context
+## Further Context
 To read more about this Act. The information can be found here: https://www.gov.uk/government/publications/online-safety-act-explainer/online-safety-act-explainer
 
 To summarise this, it is the UK government's attempt to create a more safe environment for their underaged and adult citizens. However, the proposed implementation is overreaching and requires any services that deals with user interactions, or posting content, to have strict compliance requirements. This applies to any services even outside the UK as long as they have UK users. 
@@ -32,5 +32,5 @@ We are going off the schedule located here: https://www.ofcom.org.uk/online-safe
 
 <img width="2038" height="1580" alt="Screenshot 2025-07-23 213356" src="https://github.com/user-attachments/assets/0f959d0f-2708-44e9-a576-bbb989f557da"/>
 
-# What happens if we ignore this?
-Fines. And if possible, if we are particularly negligiable, jail time. Ofcom, the body responsible for enforcing this Act, can put the team behind a service under criminal liability. The punishment can happen randomly at anytime by Ofcom. Getting into legal issues now, or in the future, will be a potential deathblow to PygmalionAI so I would like to avoid that situation from happening. Even if temporarily, UK users have to deal with restrictions. 
+## What happens if we ignore this?
+Fines. And if possible, if we are particularly negligiable, jail time. Ofcom, the body responsible for enforcing this Act, can put the team behind a service under criminal liability. These punishments can happen randomly at anytime by Ofcom. Getting into legal issues now, or in the future, will be a potential deathblow to PygmalionAI so I would like to avoid that situation from happening. Even if temporarily, UK users have to deal with restrictions. 
