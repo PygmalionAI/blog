@@ -34,3 +34,6 @@ We are going off the schedule located here: https://www.ofcom.org.uk/online-safe
 
 ## What happens if we ignore this?
 Fines. And if possible, if we are particularly negligiable, jail time. Ofcom, the body responsible for enforcing this Act, can put the team behind a service under criminal liability. These punishments can happen randomly at anytime by Ofcom. Getting into legal issues now, or in the future, will be a potential deathblow to PygmalionAI so I would like to avoid that situation from happening. Even if temporarily, UK users have to deal with restrictions. 
+
+## What we will do
+
